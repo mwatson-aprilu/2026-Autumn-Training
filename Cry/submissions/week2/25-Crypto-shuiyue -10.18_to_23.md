@@ -31,10 +31,9 @@ print("c_list:",c_list)
 ### 题目分析   
 这题给出了9个n,9个c，与中国剩余定理有关。   
 我们首先回顾**中国剩余定理**  ：     
-    
-![](https://github.com/user-attachments/assets/46446b7e-3c6c-409f-9418-3c45748bd97d)       
-  
-![](https://github.com/user-attachments/assets/356eaf0f-43c5-4232-a24d-9b304adf518f)       
+![运行情况](https://cdn.jsdelivr.net/gh/mwatson-aprilu/images@main/651ec10d1d4f2b41f697b4f0f41c596d.png)
+![运行情况](https://cdn.jsdelivr.net/gh/mwatson-aprilu/images@main/Screenshot%202026-10-20%20154640.png) 
+         
   
 (这个是我原来的笔记的一部分)       
 对于这题我们可以直接使用 *crt(n_list,c_list)*     
@@ -55,7 +54,7 @@ if exact:
 
 ### 运行结果       
 
-![](https://github.com/user-attachments/assets/00849be2-4bef-4373-84b0-96a1fcaac1d9)      
+![运行情况](https://cdn.jsdelivr.net/gh/mwatson-aprilu/images@main/Screenshot 2026-10-20 160057.png) 
    
 考虑到题目中有对Flag填充，故而我们不用管最后'}'后面的一坨,直接截取前面的作为最后的flag.       
 flag 是  
